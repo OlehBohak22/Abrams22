@@ -1,0 +1,240 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  box-sizing: border-box;
+}
+body {
+  background-color: #111;
+}
+
+.abrams-header {
+  text-align: center;
+  color: #ffdf74;
+}
+.underline {
+  fill: #ffdf74;
+  margin-bottom: 30px;
+}
+.title-one {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.first-paragraph {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  line-height: 1.3;
+  text-align: center;
+  color: #fff;
+}
+.social-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
+  width: 240px;
+  height: 72px;
+  margin: auto;
+}
+.icon:hover {
+  background-color: #ffdf74;
+  border-radius: 100%;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  padding: 12px 28px;
+  width: 180px;
+  height: 56px;
+  background: #cc1f25;
+  color: #fff;
+  border: none;
+}
+.button:hover {
+  background: rgb(94, 6, 24);
+}
+.head-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 36px;
+  padding: 37px 47px;
+  width: 668px;
+  height: 429px;
+  margin: auto;
+}
+
+.header-date-of-establishment {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 275px;
+}
+.orange-span-color {
+  color: #ffdf74;
+}
+
+.paragraph-establishmebt {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  line-height: 1.5;
+  color: #b8b8b8;
+}
+
+.second-header-date-of-establishment {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  line-height: 1.68;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container-of-establisment {
+  display: flex;
+  flex-direction: row;
+}
+
+.establishment-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  width: 806px;
+  height: 950px;
+  margin-right: 50px;
+}
+.mission {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.fisrst-element {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+  width: 502px;
+  height: 607px;
+  box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.08);
+}
+
+.number {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 64px;
+  line-height: 1.6;
+  color: #595959;
+}
+
+.internal-element {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  width: 398px;
+  height: 342px;
+  margin-top: 113px;
+}
+
+.first-internal-element {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #b8b8b8;
+}
+
+.second-internal-element {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 1.4;
+  color: #888;
+}
+
+.second-element {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48px;
+  padding: 36px 52px 52px 52px;
+  width: 502px;
+  height: 608px;
+  box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.08);
+  background: #1a1a1a;
+}
+
+.up-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 52px;
+  width: 1500px;
+  height: 607px;
+}
+
+.down-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 52px;
+  width: 1610px;
+  height: 700px;
+}
+
+.general-list-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 52px;
+  width: 1610px;
+  height: 1379px;
+}
