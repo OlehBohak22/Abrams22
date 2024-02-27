@@ -154,6 +154,7 @@ body {
   gap: 48px;
   width: 502px;
   height: 607px;
+
   box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -237,4 +238,58 @@ body {
   gap: 52px;
   width: 1610px;
   height: 1379px;
+}
+
+.title-page {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 304px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.weapon-header {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.weapon-paragraph {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.weapon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  width: 490px;
+  height: 274px;
+  margin-top: 300px;
+}
+
+.icons-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0px 146px;
+  width: 1920px;
+  height: 112px;
+  background: #e8e8e8;
 }
