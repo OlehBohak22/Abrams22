@@ -152,8 +152,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 48px;
-  width: 502px;
-  height: 607px;
+  width: 200px;
 
   box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.08);
 }
@@ -205,12 +204,16 @@ body {
   gap: 48px;
   padding: 36px 52px 52px 52px;
   width: 502px;
-  height: 608px;
+  height: 607px;
   box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.08);
   background: #1a1a1a;
 }
+.third-element {
+  width: 502px;
+  height: 607px;
+}
 
-.up-row {
+.items-row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -220,24 +223,11 @@ body {
   height: 607px;
 }
 
-.down-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 52px;
-  width: 1610px;
-  height: 700px;
-}
-
 .general-list-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 52px;
-  width: 1610px;
-  height: 1379px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
 }
 
 .title-page {
@@ -249,6 +239,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+  margin-top: 200px;
 }
 
 .weapon-header {
